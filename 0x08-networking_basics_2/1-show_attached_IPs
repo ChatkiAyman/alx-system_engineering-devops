@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#displays ipv4 
+ifconfig | grep "netmask" | awk '{print $2}'
