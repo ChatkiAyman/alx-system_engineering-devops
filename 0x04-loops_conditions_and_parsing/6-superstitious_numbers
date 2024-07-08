@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+jarvis=0
+while [[ $jarvis -le 19 ]]; do
+    jarvis=$((jarvis+1))
+    echo $jarvis
+    case $jarvis in
+    4) echo "bad luck from China";;
+    9) echo "bad luck from Japan";;
+    17)echo "bad luck from Italy";;
+    esac
+done
