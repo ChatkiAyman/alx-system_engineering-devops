@@ -1,7 +1,8 @@
-file { '/tmp/school':
-  ensure  => 'present',
-  content => 'I love Puppet',
+#creating a file
+file {'/tmp/school':
+  ensure  => 'file',
   mode    => '0744',
   owner   => 'www-data',
-  groupe  => 'www-data',
+  group   => 'www-data',
+  content => 'I love Puppet',
 }
