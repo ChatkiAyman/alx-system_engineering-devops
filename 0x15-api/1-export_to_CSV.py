@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""app module"""
 import csv
 import requests
 from sys import argv
