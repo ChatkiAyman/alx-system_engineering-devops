@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#comment
+path1=/etc/nginx/sites-available/default
+path2=/etc/nginx/sites-enabled/default
+sudo ln -sf $path1 $path2
+sudo service nginx restart
