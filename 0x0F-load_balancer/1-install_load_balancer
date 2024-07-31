@@ -24,8 +24,8 @@ frontend http-in
 backend web_server
   mode http
   balance roundrobin
-  server 432577-web-01 52.4.51.54:80 check
-  server 432577-web-02 100.26.20.115:80 check
+  server 510493-web-01 52.204.78.39:80 check
+  server 510493-web-02 54.157.140.148:80 check
 EOF
 
 # Restart HAProxy service
